@@ -1,0 +1,14 @@
+body {
+    background-color:rgba(211, 211, 211, 0.849) ;
+    text-align: center;
+}
+#title, .subtitle, .post_title {
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    font-size: large;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,18 @@
+body {
+    background-color:rgba(5, 92, 255, 0.616) ;
+    text-align: center;
+    margin: 0%;
+}
+#title, .subtitle, .post_title {
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    font-size: large;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#img_cabeçalho{
+    background-color: #f16528;
+}

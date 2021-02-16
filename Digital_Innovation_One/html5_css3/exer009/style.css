@@ -1,0 +1,40 @@
+body {
+    background-color:rgba(5, 92, 255, 0.616) ;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+}
+
+.subtitle, .post_title {
+    font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:8px;
+}
+
+p {
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2%;
+    max-width: 96%;
+    text-align: center;
+}
+
+#img_cabeçalho{
+    background-color: #f16528;
+}
+
+footer{
+  top: 87%;
+  bottom: 0;
+  left: 0;
+  height: 20px;
+  position: fixed;
+  width: 100%;
+}
+
+#title {
+    margin:1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+}

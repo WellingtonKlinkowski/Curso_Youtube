@@ -1,0 +1,1 @@
+alert("Resolução recomendada 800 x 600 100%");

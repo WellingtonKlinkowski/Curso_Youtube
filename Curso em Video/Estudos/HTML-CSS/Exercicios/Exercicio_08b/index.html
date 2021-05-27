@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>
+</head>
+<body>
+    <h1>Outras Formatações.</h1>
+    <h2>Código-fonte</h2>
+    <!--Envelopado com o 'Code': monoespaçado (pode representar um código de terminal.)-->
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em  linguagem JavaScript.</p>
+
+    <!--Pre: considera todos os caracteres, inclusive os espaços.-->
+    <!--Code: para aparecer e destacar como um código de terminal.-->
+    <pre>
+        <code>
+            <!--Shift + Tab retira os espaçamentos; Shift coloca espaços-->
+            nume = int(input('Digite um número'))
+            if num % 2 == 0:
+                print(f'O número {num} é Par')
+            else:
+                print(f'O número {num} é Ímpar')
+            print(f'Fim do programa')
+        </code>
+    </pre>
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido.</q></p>
+    <h2>Citações completas</h2>
+    <p>Segundo o autor do livro <i>The Fundamentals of HTML5</i></p>
+    <blockquote cite="https://www.google.com.br/books/edition/The_Fundamentals_of_HTML5/oIKVDwAAQBAJ?hl=pt-BR&gbpv=0">
+        This HTML5 book is an essential, step by step guide on how to learn the basics of HTML, computer programming and developing for beginners, taking you through the best software developing. It is not a developing routine it's tied in with changing your mentality that grasps incredible sustenance when programming. From basic structure of HTML, Thijs Nijenhuis shares all the components of HTML in 5 sections, namely, basic page structure, page content, content structure, learning HTML5, Features of HTML and how you can get the most out of your computer programming. In his signature, exquisite style.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <h2>Texto Invertido</h2>
+    <!--RTL: Right to Left -->
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+</body>
+</html>
